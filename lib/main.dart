@@ -57,7 +57,15 @@ class _MyAppState extends State<MyApp> {
                     second = Random().nextInt(5);
                   });
                 },
-                child: Text('Roll'),
+                style: ElevatedButton.styleFrom(
+                  fixedSize: Size(300, 50),
+                ),
+                child: Text(
+                  'Roll',
+                  style: TextStyle(
+                    fontSize: 30,
+                  ),
+                ),
               )
             ],
           ),
